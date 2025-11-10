@@ -52,7 +52,7 @@ python main.py input.fasta
 
 ```bash
 # Predict pathogenicity for a sample
-rf-predict testfiles/FG_0493.fasta
+rf-predict testfiles/MFDS2008729.fasta
 # Output: HIGH, INTERMEDIATE, or LOW
 ```
 
