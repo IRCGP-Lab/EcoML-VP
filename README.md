@@ -12,8 +12,11 @@ conda activate ecoml-vp
 # Clone the repository
 git clone https://github.com/IRCGP-Lab/EcoML-VP.git
 cd EcoML-VP
+```
 
-# Install all dependencies
+### Install all dependencies
+
+```bash
 bash install.sh
 ```
 
