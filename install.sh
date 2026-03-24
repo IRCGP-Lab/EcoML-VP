@@ -24,7 +24,7 @@ if [ -d "abricate_reproducible" ]; then
     echo "abricate_reproducible directory already exists. Removing and re-cloning..."
     rm -rf abricate_reproducible
 fi
-git clone git@github.com:IRCGP-Lab/EcoML-VP.git
+git clone git@github.com:IRCGP-Lab/abricate_reproducible.git
 
 echo "Setting up abricate databases..."
 ./abricate_reproducible/bin/abricate --setupdb
