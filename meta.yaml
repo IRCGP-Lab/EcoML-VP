@@ -1,4 +1,4 @@
-{% set name = "rf-prediction-pipeline" %}
+{% set name = "EcoML-VP" %}
 {% set version = "1.0.0" %}
 
 package:
@@ -32,16 +32,17 @@ test:
     - python -c "import main; print('Import successful')"
 
 about:
-  home: https://github.com/yourusername/rf-prediction-pipeline
+  home: https://github.com/IRCGP-Lab/EcoML-VP
   license: MIT
-  summary: RF prediction pipeline for pathogenicity assessment
+  summary: "EcoML-VP: Machine learning prediction pipeline for E. coli pathogenicity assessment"
   description: |
-    A machine learning pipeline that uses Random Forest to predict pathogenicity
-    levels (HIGH, INTERMEDIATE, LOW) from genomic data using BLAST and abricate
+    A machine learning pipeline that uses Random Forest to predict E. coli pathogenicity
+    levels (High-virulence (HV), Latent-virulence (LV), Avirulent) from genomic data using BLAST and abricate
     analysis.
-  doc_url: https://github.com/yourusername/rf-prediction-pipeline
-  dev_url: https://github.com/yourusername/rf-prediction-pipeline
+  doc_url: https://github.com/IRCGP-Lab/EcoML-VP#readme
+  dev_url: https://github.com/IRCGP-Lab/EcoML-VP
 
 extra:
   recipe-maintainers:
-    - your-github-username 
+    - erdbwjd00
+    - EspressoTonic
