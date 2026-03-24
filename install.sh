@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Installer for RF prediction pipeline dependencies
+# Installer for EcoML-VP dependencies
 
 set -e
 
@@ -24,7 +24,7 @@ if [ -d "abricate_reproducible" ]; then
     echo "abricate_reproducible directory already exists. Removing and re-cloning..."
     rm -rf abricate_reproducible
 fi
-git clone git@github.com:IRCGP-Lab/abricate_reproducible.git
+git clone git@github.com:IRCGP-Lab/EcoML-VP.git
 
 echo "Setting up abricate databases..."
 ./abricate_reproducible/bin/abricate --setupdb
