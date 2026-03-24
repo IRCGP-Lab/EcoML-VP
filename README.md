@@ -5,16 +5,26 @@ A machine learning pipeline that uses Random Forest to predict pathogenicity lev
 ## Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/IRCGP-Lab/EcoML-VP.git
-cd EcoML-VP
-
 # Create a new conda environment (recommended)
 conda create -n ecoml-vp python=3.9
 conda activate ecoml-vp
 
+# Clone the repository
+git clone https://github.com/IRCGP-Lab/EcoML-VP.git
+cd EcoML-VP
+
 # Install all dependencies
 bash install.sh
+```
+
+### Using pip
+
+```bash
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Install BLAST and abricate
+conda install -c bioconda blast abricate
 ```
 
 ## Usage
