@@ -1,4 +1,4 @@
-{% set name = "EcoML-VP" %}
+{% set name = "ecoml-vp" %}
 {% set version = "1.0.0" %}
 
 package:
