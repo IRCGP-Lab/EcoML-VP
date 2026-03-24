@@ -16,5 +16,5 @@ fi
 conda-build . --output-folder ./build
 
 echo "Package built successfully!"
-echo "To install locally: conda install --use-local rf-prediction-pipeline"
-echo "To upload to conda-forge: anaconda upload ./build/*/rf-prediction-pipeline-*.tar.bz2" 
+echo "To install locally: conda install --use-local EcoML-VP"
+echo "To upload to conda-forge: anaconda upload ./build/*/EcoML-VP-*.tar.bz2" 
