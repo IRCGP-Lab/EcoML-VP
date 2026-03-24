@@ -7,14 +7,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="rf-prediction-pipeline",
+    name="EcoML-VP",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
-    description="RF prediction pipeline for pathogenicity assessment",
+    author="Yoojung Hwang",
+    author_email="hwangyoojung1213@gmail.com",
+    description="EcoML-VP: Machine learning prediction pipeline for E. coli pathogenicity assessment",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/rf-prediction-pipeline",
+    url="https://github.com/IRCGP-Lab/EcoML-VP",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -32,7 +32,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "rf-predict=main:main",
+            "ecoml-vp=main:main",
         ],
     },
     include_package_data=True,
