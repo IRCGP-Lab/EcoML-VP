@@ -9,6 +9,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="ecoml-vp",
     version="1.0.0",
+    author="Yoojung Hwang",
+    author_email="hwangyoojung1213@gmail.com",
     description="EcoML-VP: Machine learning prediction pipeline for E. coli pathogenicity assessment",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -38,4 +40,4 @@ setup(
     package_data={
         "": ["*.pkl", "*.csv", "*.fa", "*.fa.*"],
     },
-)
+) 
