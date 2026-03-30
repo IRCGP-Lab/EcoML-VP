@@ -1,6 +1,6 @@
 # EcoML-VP
 
-A machine learning pipeline that uses Random Forest to predict pathogenicity levels (High-virulence (HV), Latent-virulence (LV), Avirulent) from genomic data using BLAST and abricate analysis.
+A machine learning pipeline that uses Random Forest to predict pathogenicity levels (High-virulence (HV), Latent-virulence (LV), Avirulent) of _Escherichia coli_ from genomic data using BLAST and abricate analysis.
 
 ## Installation
 
