@@ -88,7 +88,7 @@ If you use this pipeline in your research, please cite:
 
 ## License
 
-MIT License - see LICENSE file for details.
+GNU General Public License v3.0
 
 ## Contributing
 
