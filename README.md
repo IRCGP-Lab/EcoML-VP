@@ -1,6 +1,6 @@
 # EcoML-VP
 
-A machine learning pipeline that uses Random Forest to predict pathogenicity levels (High-virulence (HV), Latent-virulence (LV), Avirulent) of _Escherichia coli_ from genomic data using BLAST and abricate analysis.
+A machine learning pipeline that uses Random Forest to predict pathogenicity levels (EpiHR, non-EpiHR, Pathotype-negative) of _Escherichia coli_ from genomic data using BLAST and abricate analysis.
 
 ## Installation
 
@@ -47,7 +47,7 @@ python main.py input.fasta
 ```bash
 # Predict pathogenicity for a sample
 ecoml-vp testfiles/CMCEC0923.fasta
-# Output: High-virulence (HV), Latent-virulence (LV), or Avirulent
+# Output: EpiHR, non-EpiHR, or Pathotype-negative
 ```
 
 ## Input Format
@@ -57,9 +57,9 @@ The pipeline expects a FASTA file containing genomic sequences for analysis.
 ## Output
 
 The pipeline outputs one of three pathogenicity levels:
-- **High-virulence (HV)**: High pathogenicity predicted
-- **Latent-virulence (LV)**: Latent pathogenicity predicted  
-- **Avirulent**: Low pathogenicity predicted
+- **EpiHR**: High pathogenicity predicted
+- **non-EpiHR**: Latent pathogenicity predicted  
+- **Pathotype-negative**: Low pathogenicity predicted
 
 ## Dependencies
 
