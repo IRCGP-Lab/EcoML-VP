@@ -57,9 +57,9 @@ The pipeline expects a FASTA file containing genomic sequences for analysis.
 ## Output
 
 The pipeline outputs one of three pathogenicity levels:
-- **EpiHR**: epidemiologically defined high-risk
-- **non-EpiHR**: pathogenic isolates not meeting the EpiHR criteria
-- **Pathotype-negative**: isolates lacking WGS-detected pathotype-defining virulence genes
+- **EpiHR**: Epidemiologically defined high-risk
+- **non-EpiHR**: Pathogenic isolates not meeting the EpiHR criteria
+- **Pathotype-negative**: Isolates lacking WGS-detected pathotype-defining virulence genes
 
 ## Dependencies
 
